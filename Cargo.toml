@@ -1,0 +1,11 @@
+[package]
+name = "recursive-file-scan"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.100"
+blake3 = { version = "1.8.3", features = ["mmap"] }
+clap = { version = "4.5.56", features = ["derive", "cargo"] }
+rusqlite = { version = "0.38.0", features = ["bundled", "fallible_uint"] }
+walkdir = "2.5.0"
