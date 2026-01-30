@@ -15,6 +15,5 @@ Simplicity is preferred over performance and here are some conscious tradeoffs m
 
 ## Future Work
  - run tests with recursive symlinks
- - create another binary to "export" the db to json or txt
  - performance increase if possible without increasing complexity much
  - add cross-platform compatability (should just be the unix mode as far as I'm aware)
